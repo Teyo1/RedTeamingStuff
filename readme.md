@@ -1,4 +1,4 @@
-# Red Teaming/Pentesting Writeup
+# Red Teaming/Pentesting Writeups
 
 ## Overview
 This repository contains the writeups for Red Teaming and Pentesting engagements conducted by [Your Company/Team Name]. Each writeup provides insights into the methodology, techniques, tools used, and findings discovered during the engagement.
