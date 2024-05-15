@@ -38,6 +38,13 @@ This guide will walk you through the process of converting a VMDK file to the fo
 
 9. **Set Adapter Type to "E1000":**
    - Before booting, ensure the adapter type of the VM is set to "E1000" as "VMXNET3" will not be supported.
+If done orrectly you should see following
+![image](https://github.com/Teyo1/RedTeamingStuff/assets/131766045/bb72d797-f796-4ab0-8f68-ae16bdc146ad)
+
+
+
+# and login info wasn't admin:admin (has to be secure!!)
+
 
 ## Example
 
