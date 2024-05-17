@@ -21,7 +21,7 @@ Scanned at 2024-05-17 21:05:30 EEST for 11s
 
 Some of the services hint the version, which helps us identify potential vulnerabilities.
 
-## Exploiting Port 21/FTP
+## What is Port 21/FTP
 
 We'll focus on exploiting the FTP service running on port 21.
 
@@ -38,6 +38,8 @@ FTP (File Transfer Protocol) serves as a fundamental tool for file sharing and m
 5. **Maintaining System Stability**: In addition to security considerations, updating FTP services can contribute to the overall stability and performance of the system. Updates may address performance issues, compatibility concerns with other software components, and ensure interoperability with evolving technology standards. By keeping FTP servers up to date, organizations can maintain system stability, minimize downtime, and optimize operational efficiency.
 
 In summary, regular updates to FTP services are essential for maintaining a secure and resilient network infrastructure. By proactively addressing security vulnerabilities, adhering to compliance requirements, and leveraging enhanced security features, organizations can mitigate risks, protect sensitive data, and uphold the integrity of their IT environments.
+
+## Exploiting Port 21/FTP
 
 1. Open Metasploit in the terminal using the command `sudo msfconsole`.
 2. Search for the exploit targeting vsftpd.
