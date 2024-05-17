@@ -80,3 +80,4 @@ nmap 192.168.1.15 -sC -sV -vvv
 ```bash
 nmap 192.168.1.15 -sC -sV -vvv > filename.txt
 
+After this you can check the file and search possible weakspot in the system.
