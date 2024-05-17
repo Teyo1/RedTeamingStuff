@@ -49,6 +49,3 @@ To demonstrate our control, let's create a file on the compromised machine.
 
 We can confirm the creation of the file using another shell on our virtual machine.
    ![View File](https://github.com/Teyo1/RedTeamingStuff/assets/131766045/ce3c806a-705c-461b-a7f3-c5f96587d83a)
-```
-
-By organizing your content using headings, lists, and inline code blocks, you can make it easier for readers to follow along, especially when viewing on platforms like GitHub. Additionally, including image links directly in the Markdown file allows for seamless integration of images within the text.
