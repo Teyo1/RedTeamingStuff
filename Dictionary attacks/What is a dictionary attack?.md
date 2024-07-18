@@ -1,7 +1,3 @@
-Sure, here's the improved `README.md` file with better formatting using markdown headers and titles:
-
----
-
 # Dictionary Attacks
 
 ## Table of Contents
