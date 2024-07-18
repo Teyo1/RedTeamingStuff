@@ -102,3 +102,7 @@ This output demonstrates Hashcat successfully cracked the SHA1 hash `dc5f634ff50
 ---
 
 Adjust paths and details based on your setup and preferences. This Markdown format organizes the information neatly, providing clear sections for command usage, output details, and the cracked password result.
+
+![Screenshot_2024-07-18_15-45-09](https://github.com/user-attachments/assets/7e882d54-c414-4c1f-92e1-87a2d24a027a)
+
+
