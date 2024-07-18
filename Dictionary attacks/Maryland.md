@@ -1,7 +1,3 @@
-Certainly! Here's how you can format the `README.md` file for the first exercise using Markdown:
-
----
-
 # Exercise 1: Cracking a Hash with Hashcat
 
 In this exercise, we'll be cracking the MD5 hash `c9af96c05921d8a3ad9d033367c0c873` using Hashcat on an RTX 2080 graphics card. Alternatively, you can use CrackStation for the same purpose.
