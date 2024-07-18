@@ -1,7 +1,3 @@
-Certainly! Here's the provided information formatted in Markdown:
-
----
-
 # Cracking SHA1 Hash with Hashcat
 
 In this writeup, we will demonstrate how to crack SHA1 hashes using Hashcat. We are using the command:
