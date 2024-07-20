@@ -29,7 +29,7 @@ output_file="modified_wordlist.txt"
 # Read each word from the input file
 while IFS= read -r word; do
     # Append the word with numbers 0-99
-    for i in $(seq 0 99); do
+    for i in $(seq 0 9); do
         echo "${word}${i}" >> "$output_file"
     done
 
