@@ -53,7 +53,7 @@ echo "Sequences have been appended to each word in '$input_file' and written to 
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/teyo1/RedTeamingStuff/Scripts/Wordlist-Scripts/Wordlist-Expander-exact-name.git
+git clone https://github.com/yourusername/wordlist-expander.git
    ```
 
 2. **Navigate to the directory**:
