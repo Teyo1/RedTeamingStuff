@@ -11,7 +11,7 @@ This repository contains a script to modify a wordlist by appending sequences of
 ## Script
 
 The `create-wordlist.sh` script reads a list of words from the specified input file and generates an output file where each word is appended with numbers in the following formats:
-- Numbers from 0 to 99
+- Numbers from 0 to 9
 - Numbers from 00 to 99 (with leading zeros)
 - Numbers from 000 to 999 (with leading zeros)
 
