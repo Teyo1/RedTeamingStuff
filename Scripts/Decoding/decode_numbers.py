@@ -4,7 +4,7 @@ def number_to_letter(number):
     return chr(number + 64)
 
 # List of numbers
-numbers = [20, 8, 5, 6, 12, 1, 7, 20, 15, 20, 8, 9, 19, 3, 8, 1, 12, 12, 5, 14, 7, 5, 9, 19, 26, 5, 2, 18, 1]
+numbers = [x, x, x, x, x, x, x, x, x, x, x, x, x, x, x]
 
 # Convert numbers to letters
 decoded_message = ''.join(number_to_letter(num) for num in numbers)
