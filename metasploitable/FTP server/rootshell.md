@@ -1,6 +1,3 @@
-To enhance the readability of your content when displayed on GitHub, you can utilize Markdown formatting to organize and present the information more effectively. Here's how you can structure and format your text:
-
-```markdown
 # Chapter: Initial Access
 
 In this chapter, we'll explore different methods to gain access to the system. First, we need to identify potential attack vectors.
