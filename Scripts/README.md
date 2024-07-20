@@ -4,7 +4,7 @@ This section consists of scripts that I have gotten, modified, or created myself
 
 ## Decoding
 
-### [Update `decode_numbers.py`](./decode_numbers.py)
+### [Update `decode_numbers.py`](./Decoding/decode_numbers.py)
 
 
 
