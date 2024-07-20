@@ -1,3 +1,6 @@
+Here’s the updated `README.md` file with the necessary corrections and improvements:
+
+```markdown
 # Wordlist Modifier Script
 
 ## Information
@@ -53,12 +56,12 @@ echo "Sequences have been appended to each word in '$input_file' and written to 
 
 1. **Clone the repository**:
    ```bash
-git clone https://github.com/yourusername/wordlist-expander.git
+   git clone https://github.com/yourusername/wordlist-expander.git
    ```
 
 2. **Navigate to the directory**:
    ```bash
-   cd wordlist-modifier
+   cd wordlist-expander
    ```
 
 3. **Make the script executable**:
