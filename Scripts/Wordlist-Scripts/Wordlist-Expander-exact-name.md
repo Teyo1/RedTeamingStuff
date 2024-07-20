@@ -45,3 +45,62 @@ while IFS= read -r word; do
 done < "$input_file"
 
 echo "Sequences have been appended to each word in '$input_file' and written to '$output_file'."
+```
+
+**Note:** In this script, the input file is hardcoded as `dictionary-list.txt` and the output file is hardcoded as `modified_wordlist.txt`. Ensure that the input file is named `dictionary-list.txt` or modify the script to reflect the actual input file name.
+
+## Usage
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/teyo1/RedTeamingStuff/Scripts/Wordlist-Scripts/Wordlist-Expander-exact-name.gir
+   ```
+
+2. **Navigate to the directory**:
+   ```bash
+   cd wordlist-modifier
+   ```
+
+3. **Make the script executable**:
+   ```bash
+   chmod +x create-wordlist.sh
+   ```
+
+4. **Prepare your input file**:
+   - Ensure your input file is named `dictionary-list.txt` or adjust the script to use your actual file name.
+
+5. **Run the script**:
+   ```bash
+   ./create-wordlist.sh
+   ```
+
+   This will use `dictionary-list.txt` as the input and produce an output file named `modified_wordlist.txt`.
+
+### Example
+
+If your `dictionary-list.txt` contains:
+```
+word1
+word2
+```
+
+Running the script:
+```bash
+./create-wordlist.sh
+```
+
+Will produce an output file `modified_wordlist.txt` with content like:
+```
+word100
+word101
+...
+word199
+word200
+word201
+...
+word299
+word1000
+word1001
+...
+word1999
+```
