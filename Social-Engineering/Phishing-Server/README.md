@@ -7,7 +7,7 @@
 
 ## Scenario for Usage
 
-- **Scenario**: The phishing attempt is framed as a security alert from LinkedIn, urging the target to act quickly to secure their account. This creates a sense of urgency and fear, which can lead people to act impulsively and enter their credentials without scrutinizing the legitimacy of the request.
+- **Scenario**: The phishing attempt is framed as a job opportunity.
 - **Specific Group**: This is effective for professionals who use LinkedIn regularly and are concerned about account security. It preys on the natural anxiety people feel about potential security breaches.
 
 ## Harvesting Tool
