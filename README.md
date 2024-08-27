@@ -41,5 +41,3 @@ Penetration testing is a controlled and authorized attempt to exploit vulnerabil
 Penetration testing can be performed using various methodologies, such as black-box testing (no prior knowledge of the target), white-box testing (full knowledge of the target), or gray-box testing (partial knowledge). It helps organizations identify and address security weaknesses effectively, ultimately enhancing their overall cybersecurity posture.
 
 ---
-
-Feel free to customize and expand upon this README file to suit your specific requirements and target audience.
