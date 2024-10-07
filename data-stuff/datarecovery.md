@@ -21,7 +21,7 @@ sudo apt update
 sudo apt install cifs-utils foremost \
 ```
 
-2. Mount the Windows Shared C Drive
+### 2. Mount the Windows Shared C Drive
 
 You need to mount the Windows shared C drive on your Kali Linux system. Replace 192.168.1.102 with the IP of your Windows machine and AA with your Windows username.
 
@@ -31,7 +31,7 @@ sudo mkdir /mnt/windows_share
 sudo mount.cifs //192.168.1.102/C /mnt/windows_share -o username=AA
 
 Enter the password for the AA account when prompted. The Windows C drive should now be accessible under /mnt/windows_share.
-3. Create a Directory for Recovered Data
+### 3. Create a Directory for Recovered Data
 
 Create a local directory on your Kali machine where Foremost can store the recovered data.
 
@@ -39,7 +39,7 @@ bash
 
 mkdir ~/foremost_output
 
-4. Run Foremost to Scan and Recover Data
+### 4. Run Foremost to Scan and Recover Data
 
 Use Foremost to scan the entire mounted Windows C drive and recover all known file types.
 
@@ -51,7 +51,7 @@ sudo foremost -i /mnt/windows_share -o ~/foremost_output -T
     -o: Output directory for the recovered files.
     -T: Option to recover all known file types.
 
-5. Verify Recovered Files
+### 5. Verify Recovered Files
 
 Once Foremost completes the recovery process, check the output directory for the recovered files:
 
@@ -59,7 +59,7 @@ bash
 
 ls ~/foremost_output
 
-6. Unmount the Windows Share (Optional)
+### 6. Unmount the Windows Share (Optional)
 
 If you are finished working with the Windows share, you can unmount it:
 
