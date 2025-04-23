@@ -53,14 +53,7 @@ If no file is given, it defaults to `hashes.txt` in the same directory.
 
 declare -A hash_types
 
-input_file="${1:-hashes.txt}"
-
-if [[ ! -f "$input_file" ]]; then
-    echo "File not found: $input_file"
-    exit 1
-fi
-
-echo -e "Scanning hashes from: $input_file\n"
+echo -e "Scanning hashes from: hashes.txt\n"
 
 while read -r line; do
     echo "Checking hash: $line"
@@ -68,7 +61,7 @@ while read -r line; do
         echo "  Found type: $type"
         ((hash_types["$type"]++))
     done < <(hashid -m "$line" 2>/dev/null | sed -n 's/^\[+\] //p')
-done < "$input_file"
+done < hashes.txt
 
 echo -e "\n====== Hash Type Counts ======\n"
 printf "%-45s %s\n" "Hash Type" "Count"
