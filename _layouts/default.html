@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ site.description }}" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="{{ '/root@teijjo.fi files/styles/all.css' | relative_url }}" />
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Etusivu</a>
+          <a href="{{ '/Cryptographics' | relative_url }}">Kryptografia</a>
+          <a href="{{ '/metasploitable' | relative_url }}">Metasploitable</a>
+          <a href="{{ '/Scripts' | relative_url }}">Scriptejä</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-content container">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© {{ site.title }} · Built with GitHub Pages</p>
+      </div>
+    </footer>
+  </body>
+  </html>
+
+
